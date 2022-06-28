@@ -1,0 +1,11 @@
+{
+	"name": "ls_kv_dev_nishant",
+	"properties": {
+		"description": "Linked service for KV_DEV_Nishant Key Vault",
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://KV-DEV-Nishant.vault.azure.net/"
+		}
+	}
+}
