@@ -1,0 +1,10 @@
+{
+	"name": "ls_kv_dev_nishant28",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://KV-DEV-Nishant.vault.azure.net/"
+		}
+	}
+}
