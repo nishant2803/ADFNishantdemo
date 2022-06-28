@@ -11,8 +11,7 @@
 					"referenceName": "ls_kv_dev_nishant",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "sec-bsdevnishant-connectionstring",
-				"secretVersion": "02b04c6571bc4544b652fae8b984fce3"
+				"secretName": "sec-bsdevnishant-connectionstring"
 			}
 		}
 	}
