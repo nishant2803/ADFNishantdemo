@@ -1,0 +1,19 @@
+{
+	"name": "ls_bsdevnishant",
+	"properties": {
+		"description": "Linked service for bsdevnishant blob storage220601",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_kv_dev_nishant",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sec-bsdevnishant-connectionstring",
+				"secretVersion": "02b04c6571bc4544b652fae8b984fce3"
+			}
+		}
+	}
+}
